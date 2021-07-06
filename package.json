@@ -1,0 +1,25 @@
+{
+  "name": "search-app",
+  "version": "1.0.0",
+  "description": "lunrjs app for search",
+  "repository": {
+    "url": "",
+    "directory": "",
+    "type": ""
+  },
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lunr": "^2.3.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
